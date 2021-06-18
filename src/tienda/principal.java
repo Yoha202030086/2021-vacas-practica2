@@ -9,15 +9,8 @@ public class principal {
     principal p = new principal();
     }
     
-    public VectorPelicula getVectorpelicula() {
-        return vectorpelicula;
-    }
 
-    public void setVectorpelicula(VectorPelicula vectorpelicula) {
-        this.vectorpelicula = vectorpelicula;
-    }
-
-    private VectorPelicula vectorpelicula = new VectorPelicula();
+    private VectorPelicula tablapelicula = new VectorPelicula();
     
     public principal(){
 
@@ -29,13 +22,10 @@ public class principal {
         System.out.println("-1. Salir");
         System.out.println("\n");
         menu = ingresoDatos.getEntero("ingresar opcion", true);
-        
 
-
-
-
-
-
+        if(menu==1);
+        //ingreso datos
+        tablapelicula.agregarPelicula();
     }
 
     }
