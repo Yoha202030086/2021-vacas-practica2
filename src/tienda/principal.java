@@ -18,7 +18,9 @@ public class principal {
     int menu = 0;
     while(menu >= 0 ){
         System.out.println("Bienvenido a memorabilia \n\n");
+
         System.out.println("1. Ingreso de peliculas");
+        System.out.println("1. mostrar peliculas");
         System.out.println("-1. Salir");
         System.out.println("\n");
         menu = ingresoDatos.getEntero("ingresar opcion", true);
